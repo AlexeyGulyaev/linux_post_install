@@ -10,7 +10,7 @@ file_pycharm=pycharm-community-2020.3.3.tar.gz
 file_dbeaver=dbeaver-ce_7.3.3_amd64.deb
 # файл можго взять отсюда 
 file_zoom=zoom_amd64.deb # в скрипте пока не прописан
-if [ -f $file_google ] && [ -f $file_telegramm ] && [ -f $file_pycharm ] && [ -f $file_dbeaver ] && [ -f$file_zoom]; then
+if [ -f $file_google ] && [ -f $file_telegramm ] && [ -f $file_pycharm ] && [ -f $file_dbeaver ] && [ -f $file_zoom ]; then
 echo 'всё ок =) погнали!'
 echo 'установка базовых программ'
 sudo apt update -y
